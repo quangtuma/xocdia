@@ -7,6 +7,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+    color: var(--text-color);
 }
 
 * {
@@ -17,10 +18,27 @@ body {
 
 :root {
     --primary: #1c1e21;
+    --transaction-button: #3d3d;
     --default-header-height: 60px;
-    --default-content-width: 1800px;
+    --default-content-width: 1600px;
+    --text-color: #333;
+    --primary: #fe2c55;
+    --black: #000;
+    --white: #fff;
 }
 
 html {
     font-size: 62.5%;
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
 }
