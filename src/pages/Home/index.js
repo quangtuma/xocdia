@@ -4,13 +4,26 @@ import styles from './Home.module.scss';
 import ColorNode from '~/components/Layout/components/Node';
 
 const clNames = classNames.bind(styles);
+
+let nodeStatus = ['red', 'black', 'red', 'black'];
+
 function Home() {
     return (
         <div className={clNames('content')}>
-            <div>
-                <img src={images.diaDuoi} className={clNames('diaDuoi')}>
-                    {/* <ColorNode color="red" className={clNames('nut')}></ColorNode> */}
-                </img>
+            <img src={images.diaDuoi} className={clNames('diaDuoi')} />
+            <div className={clNames('nuts')}>
+                <div className={clNames('nut')}>
+                    <ColorNode color={nodeStatus[0]}></ColorNode>
+                </div>
+                <div className={clNames('nut')}>
+                    <ColorNode color={nodeStatus[1]}></ColorNode>
+                </div>
+                <div className={clNames('nut')}>
+                    <ColorNode color={nodeStatus[2]}></ColorNode>
+                </div>
+                <div className={clNames('nut')}>
+                    <ColorNode color={nodeStatus[3]}></ColorNode>
+                </div>
             </div>
         </div>
     );

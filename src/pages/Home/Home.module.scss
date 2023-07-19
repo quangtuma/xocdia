@@ -1,16 +1,22 @@
 .content {
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vw;
+    z-index: 1;
+    position: relative;
 }
 .diaDuoi {
-    position: 'relative';
-    z-index: -1;
+}
+
+.nuts {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: absolute;
+    z-index: 2;
 }
 
 .nut {
-    position: 'relative';
-    // z-index: 2;
+    padding: 5px;
 }
