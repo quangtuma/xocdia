@@ -8,8 +8,16 @@
     position: relative;
 }
 .diaDuoi {
+    z-index: 1;
 }
-
+.chan {
+    display: flex;
+    position: relative;
+}
+.le {
+    display: flex;
+    position: relative;
+}
 .nuts {
     display: grid;
     grid-template-columns: auto auto;
