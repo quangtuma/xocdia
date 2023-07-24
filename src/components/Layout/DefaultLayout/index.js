@@ -10,7 +10,7 @@ function DefaultLayout({ children }) {
         <div className={clName('wrapper')}>
             <Header />
             <div className={clName('container')}>
-                {/* <Sidebar /> */}
+                <Sidebar />
                 <div className="content">{children}</div>
             </div>
         </div>

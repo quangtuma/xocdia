@@ -1,28 +1,40 @@
 .content {
+    display: block;
+}
+.line1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
+    height: 70vh;
+    width: 70vw;
     z-index: 1;
     position: relative;
 }
 .diaDuoi {
     z-index: 1;
 }
-.chan {
+.parity {
     display: flex;
     position: relative;
-}
-.le {
-    display: flex;
-    position: relative;
+    padding: 50px;
+    z-index: 1;
 }
 .nuts {
     display: grid;
     grid-template-columns: auto auto;
     position: absolute;
     z-index: 2;
+}
+
+.movePlate {
+    position: absolute;
+    z-index: 3;
+}
+.xoc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
 }
 
 .nut {

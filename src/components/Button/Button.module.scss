@@ -5,7 +5,6 @@
     padding: 9px 16px;
     border-radius: 4px;
     cursor: pointer;
-    background-color: var(--white);
     border: 1px solid transparent;
 }
 .primary {
@@ -23,5 +22,14 @@
 
     &:hover {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), #3d3d;
+    }
+}
+
+.defaultButton {
+    background-color: var(--default-button);
+    color: aliceblue;
+
+    &:hover {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), #40ace9;
     }
 }

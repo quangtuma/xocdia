@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 const clName = classnames.bind(styles);
 
-function Button({ to, href, primary, transaction, children, onClick }) {
-    const classes = clName('wrapper', { primary }, { transaction });
+function Button({ to, href, primary, transaction, defaultButton, children, onClick, size }) {
+    const classes = clName('wrapper', { primary }, { transaction }, { defaultButton });
     let Comp = 'button';
 
     const props = {
@@ -21,7 +21,7 @@ function Button({ to, href, primary, transaction, children, onClick }) {
     }
     return (
         <Comp className={classes} {...props}>
-            <span>{children}</span>
+            <span style={{ fontSize: size }}>{children}</span>
         </Comp>
     );
 }
