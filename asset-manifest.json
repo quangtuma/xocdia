@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/deploy-github/static/css/main.8acfe208.css",
+    "main.js": "/deploy-github/static/js/main.3558e26a.js",
+    "static/js/787.00355064.chunk.js": "/deploy-github/static/js/787.00355064.chunk.js",
+    "static/media/taixiu_icon.svg": "/deploy-github/static/media/taixiu_icon.498df5709d52d0c77ef976e81dfbe018.svg",
+    "static/media/tienlen_icon.svg": "/deploy-github/static/media/tienlen_icon.5b413ecaf7eea02e5069d67ef9842baa.svg",
+    "static/media/xocdia_icon.svg": "/deploy-github/static/media/xocdia_icon.15d00751ff9d0aad0273e4dcda2ad78d.svg",
+    "static/media/logo.svg": "/deploy-github/static/media/logo.5a3137fe76638fdd496a377fc8c93033.svg",
+    "index.html": "/deploy-github/index.html",
+    "static/media/dia_duoi.svg": "/deploy-github/static/media/dia_duoi.c79a04eb9a512635cccd794100697529.svg",
+    "main.8acfe208.css.map": "/deploy-github/static/css/main.8acfe208.css.map",
+    "main.3558e26a.js.map": "/deploy-github/static/js/main.3558e26a.js.map",
+    "787.00355064.chunk.js.map": "/deploy-github/static/js/787.00355064.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8acfe208.css",
+    "static/js/main.3558e26a.js"
+  ]
+}
