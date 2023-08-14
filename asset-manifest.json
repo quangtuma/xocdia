@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/xocdia/static/css/main.8acfe208.css",
-    "main.js": "/xocdia/static/js/main.8e7c5784.js",
-    "static/js/787.00355064.chunk.js": "/xocdia/static/js/787.00355064.chunk.js",
-    "static/media/taixiu_icon.svg": "/xocdia/static/media/taixiu_icon.498df5709d52d0c77ef976e81dfbe018.svg",
-    "static/media/tienlen_icon.svg": "/xocdia/static/media/tienlen_icon.5b413ecaf7eea02e5069d67ef9842baa.svg",
-    "static/media/xocdia_icon.svg": "/xocdia/static/media/xocdia_icon.15d00751ff9d0aad0273e4dcda2ad78d.svg",
-    "static/media/logo.svg": "/xocdia/static/media/logo.5a3137fe76638fdd496a377fc8c93033.svg",
-    "index.html": "/xocdia/index.html",
-    "static/media/dia_duoi.svg": "/xocdia/static/media/dia_duoi.c79a04eb9a512635cccd794100697529.svg",
-    "main.8acfe208.css.map": "/xocdia/static/css/main.8acfe208.css.map",
-    "main.8e7c5784.js.map": "/xocdia/static/js/main.8e7c5784.js.map",
-    "787.00355064.chunk.js.map": "/xocdia/static/js/787.00355064.chunk.js.map"
+    "main.css": "./static/css/main.8acfe208.css",
+    "main.js": "./static/js/main.dc01ead6.js",
+    "static/js/787.00355064.chunk.js": "./static/js/787.00355064.chunk.js",
+    "static/media/taixiu_icon.svg": "./static/media/taixiu_icon.498df5709d52d0c77ef976e81dfbe018.svg",
+    "static/media/tienlen_icon.svg": "./static/media/tienlen_icon.5b413ecaf7eea02e5069d67ef9842baa.svg",
+    "static/media/xocdia_icon.svg": "./static/media/xocdia_icon.15d00751ff9d0aad0273e4dcda2ad78d.svg",
+    "static/media/logo.svg": "./static/media/logo.5a3137fe76638fdd496a377fc8c93033.svg",
+    "index.html": "./index.html",
+    "static/media/dia_duoi.svg": "./static/media/dia_duoi.c79a04eb9a512635cccd794100697529.svg",
+    "main.8acfe208.css.map": "./static/css/main.8acfe208.css.map",
+    "main.dc01ead6.js.map": "./static/js/main.dc01ead6.js.map",
+    "787.00355064.chunk.js.map": "./static/js/787.00355064.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8acfe208.css",
-    "static/js/main.8e7c5784.js"
+    "static/js/main.dc01ead6.js"
   ]
 }
