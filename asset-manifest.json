@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xocdia/static/css/main.8acfe208.css",
-    "main.js": "/xocdia/static/js/main.063ea3f5.js",
+    "main.js": "/xocdia/static/js/main.8e7c5784.js",
     "static/js/787.00355064.chunk.js": "/xocdia/static/js/787.00355064.chunk.js",
     "static/media/taixiu_icon.svg": "/xocdia/static/media/taixiu_icon.498df5709d52d0c77ef976e81dfbe018.svg",
     "static/media/tienlen_icon.svg": "/xocdia/static/media/tienlen_icon.5b413ecaf7eea02e5069d67ef9842baa.svg",
@@ -10,11 +10,11 @@
     "index.html": "/xocdia/index.html",
     "static/media/dia_duoi.svg": "/xocdia/static/media/dia_duoi.c79a04eb9a512635cccd794100697529.svg",
     "main.8acfe208.css.map": "/xocdia/static/css/main.8acfe208.css.map",
-    "main.063ea3f5.js.map": "/xocdia/static/js/main.063ea3f5.js.map",
+    "main.8e7c5784.js.map": "/xocdia/static/js/main.8e7c5784.js.map",
     "787.00355064.chunk.js.map": "/xocdia/static/js/787.00355064.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8acfe208.css",
-    "static/js/main.063ea3f5.js"
+    "static/js/main.8e7c5784.js"
   ]
 }
