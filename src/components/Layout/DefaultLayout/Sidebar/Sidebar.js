@@ -11,7 +11,7 @@ function Sidebar() {
             <Menu>
                 <MenuItems
                     title="XÓC ĐĨA"
-                    to=""
+                    to="/xocdia"
                     icon={<img src={images.xocDiaIcon} alt="xocdiaicon" className={clNames('icon')}></img>}
                 />
 
