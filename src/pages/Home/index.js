@@ -40,7 +40,8 @@ function Home() {
 
         // to run :))))
 
-        const statusChange = count % 2 === 1;
+        //const statusChange = count % 2 === 1;
+        const statusChange = false;
 
         setstatusParity(statusChange);
 
@@ -51,11 +52,11 @@ function Home() {
         <div className={clNames('content')}>
             <div className={clNames('line1')}>
                 <div className={clNames('parity')}>
-                    <EvenLabel status={statusParity}></EvenLabel>
+                    <EvenLabel status={true}></EvenLabel>
                 </div>
                 <img src={images.diaDuoi} className={clNames('diaDuoi')} />
                 <div className={clNames('parity')}>
-                    <OddLabel status={statusParity}></OddLabel>
+                    <OddLabel status={false}></OddLabel>
                 </div>
                 <div className={clNames('nuts')}>
                     <div className={clNames('nut')}>
